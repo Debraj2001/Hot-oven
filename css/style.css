@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+
+.header{
+    width:100%;
+    height:135px;
+    text-align: center;
+    padding:20px 0px;
+}
+
+.swiper-pagination-bullet{
+    float: right;
+    width:16px;
+    height:16px;
+    background-color: rgb(179, 27, 0);
+    border: 1px solid black;
+}
+
+.section{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    padding: 45px 30px;
+}
+
+.left{
+    width: 70%;
+    height: 100%;
+}
+.lefttop{
+    width: 100%;
+    height: 300px;
+}
+
+.head{
+    width:100;
+    height:125px;
+    display: flex;
+}
+
+.head h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d33131;
+    padding-left: 10px;
+}
+
+.head p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555353;
+    padding-left: 10px;
+}
+.para{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555353;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.para span a{
+    color: #d33131;
+}
+.leftbottom{
+    padding-left: 10px;
+}
+.leftbottom h2{
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d33131;
+    margin-bottom: 10px;
+}
+.leftbottom ul{
+    list-style: image url('../images/bullet.png');
+    margin-left: 25px;
+}
+.leftbottom ul li{
+    margin-bottom: 10px;
+}
+.leftbottom ul li a{
+    text-decoration: none;
+    color: #555353;
+}
+.right{
+    width: 30%;
+    height: 534px;
+}
+.shape{
+    width: 220px;
+    height: 312px;
+    background-color: #eddfba;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding:20px;
+
+}
+.shape img{
+    padding-top: 10px;
+}
+.shape h2{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d33131;
+}
+.shape p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555353;
+}
+.shape span a{
+    color: #d33131;
+}
+.footer{
+    width: 100%;
+    height: 95px;
+    background-color: #3c3838;
+    padding-top:40px;
+}
+.footer ul{
+    margin: 0px;
+    margin-bottom:20px;
+    padding: 0px;
+    list-style: none;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding-right:5px;
+}
+.footer p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.footermenu{
+    text-align: center;
+}
